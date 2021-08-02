@@ -16,11 +16,7 @@ class Square extends React.Component {
         <button
             className="square"
             onClick={() => { 
-                    if (!this.state.value) {
-                        this.setState({ value: 'X' })
-                    } else {
-                        this.setState({ value: null })
-                    }
+                    this.setState({ value: 'X' })
                 }
             }
         >
